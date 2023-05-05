@@ -1,0 +1,51 @@
+.header {
+	height: 150px;
+}
+
+button.btn-logo
+{
+border-radius: 50px;
+float:right;
+width: 70px;
+height: 70px;
+background-size: 100%;
+border-color:#ffa500;
+}
+
+.mob-nav {
+	display: none;
+}
+
+.header-mob {	
+	display: none;
+}
+
+@media screen and (max-width: 778px) {
+	.main-nav {
+		display: none;
+	}
+	.logo {
+		display: none;
+	}
+	.mob-nav { 
+		display: block; 
+	}
+
+	.header {
+		display: none;
+	}
+
+	.header-mob {
+		display: block;
+	}	
+}
+
+@media screen and (max-width: 576px) {
+.col-xs {
+	width: 90%;
+}
+}
+
+.food-name {
+	height: 50px;
+}
